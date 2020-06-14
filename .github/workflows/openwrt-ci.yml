@@ -72,6 +72,9 @@ jobs:
           CONFIG_PACKAGE_fdisk=y
           CONFIG_PACKAGE_docker-ce=y
           CONFIG_DOCKER_KERNEL_OPTIONS=y
+          CONFIG_PACKAGE_kmod-spi-bitbang=y
+          CONFIG_PACKAGE_kmod-spi-dev=y
+          CONFIG_PACKAGE_kmod-spi-gpio=y
           EOF
 
           #
