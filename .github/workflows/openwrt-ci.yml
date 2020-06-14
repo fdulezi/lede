@@ -66,8 +66,8 @@ jobs:
           touch ./.config
           cat >> .config <<EOF
           CONFIG_TARGET_bcm27xx=y
-          CONFIG_TARGET_bcm27xx_bcm2709=y
-          CONFIG_TARGET_bcm27xx_bcm2709_DEVICE_rpi-2=y
+          CONFIG_TARGET_bcm27xx_bcm2710=y
+          CONFIG_TARGET_bcm27xx_bcm2710_DEVICE_rpi-3=y
           CONFIG_PACKAGE_cfdisk=y
           CONFIG_PACKAGE_fdisk=y
           CONFIG_PACKAGE_docker-ce=y
